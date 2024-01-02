@@ -1,7 +1,10 @@
 .content-grid {
-    --padding-inline: 1rem;
+    /* --padding-inline: 1rem;
     --content-max-width: 900px;
-    --breakout-max-width: 1200px;
+    --breakout-max-width: 1200px; */
+    --padding-inline: 2rem;
+    --content-max-width: 70ch;
+    --breakout-max-width: 90ch;
 
     --breakout-size: calc((var(--breakout-max-width) - var(--content-max-width)) / 2);
 
@@ -89,6 +92,11 @@ figure {
 img {
     max-width: 100%;
     display: block;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .site-title {
